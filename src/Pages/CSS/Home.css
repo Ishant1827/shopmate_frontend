@@ -1,0 +1,98 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 8%;
+    background-color: #f7f0de;
+}
+
+.hero-left{
+    flex: 1;
+}
+
+.hero-right{
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-right>img{
+    height: 100%;
+    width: 650px;
+    border-radius: 20px;
+}
+
+.hero-tag{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(254, 224, 148, 0.651);
+    color: #dd8342;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+.hero-left>h1{
+    font-size: 70px;
+    line-height: 1.1;
+    margin: 25px 0;
+}
+.hero-left>h1>span{
+    color: #dd8342;
+}
+.hero-left>p{
+    color: #666;
+    font-size: 20px;
+    width: 80%;
+    line-height: 30px;
+}
+
+.hero-button>button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+.shop-btn{
+    background-color: #dd8342;
+    color: azure;
+    margin-right: 30px;
+    border: 2px solid #dd8342;
+}
+.explore-btn{
+    box-sizing: border-box;
+    border: 2px solid #dd8342;
+    background-color: transparent;
+    color: #dd8342;
+}
+
+.hero-features{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+
+}
+.hero-feature-card{
+    display: flex;
+    gap: 20px;
+}
+.hero-feature-icon{
+    height: 50px;
+    width: 50px;
+    background-color: #fee9db;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #f87724;
+}
+
+.hero-feature-text h4{
+    margin-bottom: 5px;
+}
+.hero-feature-text small{
+    color: gray;
+}

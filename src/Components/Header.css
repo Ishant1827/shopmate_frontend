@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.header-outer{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    box-shadow:  0 2px 10px rgba(0,0,0,0.15);
+    
+}
+.header-logo{
+    width: 20%;
+    height: 100%;
+}
+.header-logo>img{
+    height: 100%;
+}
+
+.header-menu{
+    width: 60%;
+}
+.header-menu>ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.header-menu>ul>li{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.menu-item{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.active{
+    color: rgb(255, 81, 0); 
+}
+
+.header-icons{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.header-icons>div{
+    display: flex;
+    gap: 10px;
+}
+.header-login-btn{
+    border: 1px solid rgb(255, 81, 0);
+    background-color:transparent ;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(255, 81, 0);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.header-signup-btn{
+    border: 1px solid rgb(255, 81, 0) ;
+    background-color:transparent ;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 81, 0);
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,107 @@
+.login-page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+.login-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.login-left>img{
+    height: 100vh;
+    width: 90vh;
+}
+.login-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+.login-box{
+    width: 420px;
+
+}
+.login-box h1{
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 10px;
+
+}
+.login-box p{
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.login-box label{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.login-box input{
+    width: 100%;
+    height: 55px;
+    padding: 0 15px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 18px;
+}
+
+.forgot{
+    text-align: right;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.forgot-link{
+    font-size: 15px;
+    color: #fa6b0d;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-btn{
+    width: 100%;
+    height: 55px;
+    border: 1px solid#ddd;
+    color: white;
+    background-color: #fa6b0d;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+
+.or{
+    text-align: center;
+    margin: 20px 0;
+    color: #666;
+}
+
+.social-btn{
+    width: 100%;
+    height: 55px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.register{
+    text-align: center;
+    margin-top: 10px;
+}
+.register span{
+    color: #fa6b0d;
+    font-weight: 600;
+}

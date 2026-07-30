@@ -1,0 +1,43 @@
+.product-outer{
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+
+}
+.product-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.product-top h1{
+    font-size: 40px;
+}
+.search-box{
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.search-box input{
+    flex: 1;
+    border: none;
+    outline: none;
+    height: 100%;
+    margin-left: 10px;
+    background-color: white;
+    font-size: 15px;
+}
+
+.product-card-outer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    gap: 20px;
+}
